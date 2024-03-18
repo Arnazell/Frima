@@ -13,6 +13,8 @@ public:
 
 	virtual void IntroduceYourself() const override;
 
-
-
+	virtual void PrintClassObjects() const override;
+	// zmienne statyczne - wspolne dla kazdego obiektu klasy (definicje)
+	// kontener z wskaznikami na obiekty klasy Employee: kazdy obiekt w konstruktorze sie tam dopisuje
+	static std::vector<Manager*> managers;
 };

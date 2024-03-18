@@ -137,6 +137,9 @@
     <ClInclude Include="Intern.h" />
     <ClInclude Include="Manager.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="testy.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
